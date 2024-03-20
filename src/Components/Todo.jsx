@@ -6,9 +6,9 @@ export default function Todo(){
     const [taskList,setTaskList]=useState([]);
     const [task,setTask]=useState("");
     
-    useEffect(()=>{
+    /*useEffect(()=>{
         console.log(taskList);
-    },[taskList])
+    },[taskList])*/
 
 
     function addTask(){
