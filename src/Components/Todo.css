@@ -1,0 +1,77 @@
+#todo-container{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 80%;
+    border: solid 1px white;
+}
+#input-container{
+    width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    width: 70%;
+    height: 50%;
+    outline: none;
+    background-color: black;
+    color:wheat;
+    border: solid 1px white;
+    
+}
+#button{
+    border: solid 1px white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+#todos{
+    width:90%;
+    height: 70%;
+    border: solid 1px white;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin: 3%;
+    
+   
+
+}
+.todo{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    gap: 5%;
+    
+}
+p{
+    width: 80%;
+    height: 80%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+
+}
+.delete-button{
+    width: 30%;
+    height: 90%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#todoss{
+    
+    width:100%;
+    height: 80%;
+   
+}
